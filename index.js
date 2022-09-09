@@ -11,5 +11,5 @@ const server = app.listen(port, (err) => {
     if (err) {
         console.log(err);
     }
-    console.log("Server is running on port 1234");
+    console.log("Server is running on port ", port);
 });
